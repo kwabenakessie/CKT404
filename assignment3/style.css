@@ -1,0 +1,40 @@
+/* This is the stlye for Assignment 3*/
+
+selector {
+    property: value;
+    property: value;
+}
+
+h1{
+    color:red;
+    background-color:rgb(234, 247, 234);
+}
+
+.subtitle {
+    color: blue;
+    background-color:#ffffffff;
+}
+
+#divexample {
+    background-color:#e8e8f5;
+}
+
+.spanstyle {
+    color: red;
+}
+
+/* CSS for the link pages */
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkgreen;
+}
