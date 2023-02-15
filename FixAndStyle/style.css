@@ -1,0 +1,59 @@
+header{
+    background-color: #a090fb;
+}
+
+h1{
+ color:rgb(255, 255, 255);  
+}
+
+
+#h2 {
+    color: rgb(1, 18, 255);
+}
+
+h3{
+    color:rgb(0, 0, 0); 
+    background-color:rgb(223, 223, 7);
+}
+
+h4{
+    color: rgb(223, 223, 7); 
+    background-color: rgb(1, 70, 2);
+}
+
+h5{
+    color: red;
+}
+
+#lightgreenBG{
+    background-color: lightgreen;
+}
+
+.lastsection{
+    background-color:  rgb(223, 223, 7);
+}
+
+#redtext{
+    color: red;
+}
+
+#bluetext{
+    color: blue;
+}
+
+#orangetext{
+    color: orange;
+}
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #AAAAAA;
+}
