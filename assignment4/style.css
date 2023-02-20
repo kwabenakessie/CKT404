@@ -1,0 +1,89 @@
+/* This is the stlye for Assignment 4*/
+
+#body{
+    background-color: rgb(235, 235, 235);
+    background-image: url(BG.png);
+   background-repeat: no-repeat;
+   background-position: center top;
+}
+
+img{
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 10px 10px;
+}
+
+#header {
+    font-family: kanit, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    color: blue;
+}
+
+#justify {
+    text-align: justify;
+    color: red;
+}
+
+#maincenter {
+    text-align: center;
+}
+
+#mainjustify {
+    text-align: justify;
+    color: rgb(168, 7, 176);
+    font-family: kanit, sans-serif;
+}
+
+.boxmodel {
+    border: black;
+}
+
+.font, .main {
+    font-family: Roboto, Fira-San, sans-serif;
+}
+
+.maintext{
+    font-family: Roboto, Fira-San, sans-serif ;
+}
+
+
+.foot{
+    font-family: Roboto, Fira-San, sans-serif;
+}
+
+h1, h2{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+#divexample {
+    background-color:#e8e8f5;
+}
+
+.spanstyle {
+    color: red;
+}
+
+/* CSS for the link pages */
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkgreen;
+}
