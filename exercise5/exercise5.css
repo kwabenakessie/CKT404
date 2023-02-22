@@ -1,0 +1,30 @@
+nav ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+ border:1px;
+ width: 200px;
+ padding: 5px 5px;
+ margin-bottom: 20px;
+ margin-right: 10px;
+ background-color: darkred;
+ display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-family: kanit;
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+    /*margin: 10px 10px;*/
+}
+
+nav li a:hover{
+    color: yellow;
+    background-color: aqua;
+}
