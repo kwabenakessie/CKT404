@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+#wrapper {
+  margin: 0px auto;
+  width: 100%;
+  padding: 10px auto;
+  }
+
+header {
+  display:flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 50%;
+  margin: 0px;
+  padding: 10px 10px;
+  margin-left: 750px;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: right;
+  place-content: right;
+}
+
+nav ul li {
+width: 50px;
+padding: 5px 5px;
+margin: 5px 5px;
+margin-left: 50px;
+list-style-type: none;
+display: inline-block;
+align-items: right;
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: kanit, Roboto, sans-serif;
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+nav ul li a:hover{
+  color: rgb(249, 78, 78);
+  transition: .2s;
+}
+
+.brief{
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+}
+
+.areas ul li{
+  width: 130px;
+  padding: 5px 5px;
+  margin: 50px 5px;;
+  margin-left:195px;
+  list-style-type: none;
+  display: inline-block;
+  font-family: kanit, roboto, sans-serif;
+  align-items: center;
+} 
+
+.areas ul li a{
+  color: #202020;
+  text-decoration: none;
+  font-family: kanit, Roboto, sans-serif;
+  display: inline-block;
+  padding: 5px 5px;
+} 
+
+/*.resume {
+  position: absolute;
+  width: 150px;
+  margin: 0px 545px;
+  padding: 15px 15px;
+  background-color: #313131;
+  border-radius: 10px;
+  text-align: center;
+}*/
+
+.resume a{
+  color: white;
+  position: absolute;
+  width: 150px;
+  margin: 100px 565px;
+  margin-bottom: 100px;
+  padding: 15px 15px;
+  font-family: kanit, Roboto, sans-serif;
+  background-color: #313131;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.resume a:hover{
+  color: rgb(249, 78, 78);
+  transition: .2s;
+}
+
+#works{
+  background: #202020;
+  width: 100%;
+  height: 2200px;
+  display: flexbox;
+}
+
+#project1{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  margin-top: 130px;
+  left: calc(50% - 1120px/2 + 3px);
+  background: #313131;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.title1{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 96px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription1{
+  position: absolute;
+  width: 549px;
+  height: 262px;
+  left: 96px;
+  top: calc(50% - 262px/2 + 21px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+.mockup1{
+  position: absolute;
+  width: 305px;
+  height: 550px;
+  left: 730px;
+  top: -100px;
+  background: url(EFPAC.png);
+}
+
+#project2{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: 74px;
+  background: #313131;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -1480px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.title2{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 480px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.discription2{
+  position: absolute;
+  width: 544px;
+  height: 262px;
+  left: 480px;
+  top: calc(50% - 262px/2 + 18px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+.mockup2{
+  
+}
+
+#project3{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: calc(50% - 1120px/2 + 3px);
+  bottom: 621px;
+  background: #313131;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -2010px;
+}
+
+.title3{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 97px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription3{
+  position: absolute;
+  width: 546px;
+  height: 262px;
+  left: 97px;
+  top: calc(50% - 262px/2 + 21px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+.mockup3{
+  position: absolute;
+  width: 300px;
+  height: 550px;
+  left: 730px;
+  top: -100px;
+  background: url(EFPAC.png);
+}
+
+#project4{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: calc(50% - 1120px/2 + 3px);
+  bottom: 152px;
+  background: #313131;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -2530px;
+}
+
+.title4{
+  position: absolute;
+  left: 479px;
+  right: 479px;
+  top: 12.13%;
+  bottom: 81.19%;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription4{
+  position: absolute;
+  width: 549px;
+  height: 262px;
+  left: 477px;
+  top: calc(50% - 262px/2 + 18px);  
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+footer{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+}
+
+footer ul li{
+  width: 50px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  margin-left: 100px;
+  list-style-type: none;
+  display: inline-block;
+  place-items: calc();
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
